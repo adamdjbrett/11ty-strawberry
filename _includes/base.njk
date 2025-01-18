@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+<head>
+{% include "partials/seo.njk" %}
+</head>
+<body>
+{% include "partials/header.njk" %}
+<main class="container-fluid" id="skip">
+<div class="row mt-5 mb-5" id="blogpost">
+<heading-anchors>
+{{ content | safe }}
+</heading-anchors>
+</div>
+</main>
+{% include "partials/footer.njk" %}
+</body>
+</html>

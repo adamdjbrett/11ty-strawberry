@@ -1,0 +1,26 @@
+---
+layout: base.njk
+---
+{%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %}
+{%- css %}{% include "public/css/prism-diff.css" %}{%- endcss %}
+<div class="col-md-10 mx-auto p-3 p-md-5 border-bottom">
+<h3 class="text-big"><strong><a href="{{page.url}}">{{title}}</a></strong></h3>
+<p><code class="text-dark"><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></code></p>
+<p>{%- for tag in tags | filterTagList %}{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+<a href="{{ tagUrl }}"><code class="text-dark small">#{{ tag }}</code></a> {%- endfor %}</p>
+{{ content | safe }}
+</div>
+{%- if collections.posts %}{%- set previousPost = collections.posts | getPreviousCollectionItem %}{%- set nextPost = collections.posts | getNextCollectionItem %}
+<div class="container">
+<div class="row border-top">
+<div class="col-6 p-3 text-pag">
+{%- if previousPost %}<a title="{{ previousPost.data.title }}" href="{{ previousPost.url }}" class="header-title ms-3">
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/></svg> Prev</a>{%- endif %}
+</div>
+<div class="col-6 p-3 text-end text-pag">{%- if nextPost %}
+<a href="{{ nextPost.url }}" title="{{ nextPost.data.title }}" class="header-title me-3">
+Next <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg></a>{%- endif %}</div>
+</div>
+</div>{%- endif %}
