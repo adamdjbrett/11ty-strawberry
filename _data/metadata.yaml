@@ -10,6 +10,11 @@ metasocial:
  - facebook: "https://www.facebook.com/user"
  - twitteruser: "@user"
  - twitter: "https://x.com/user"
+nav:
+ title: "11ty Starwberry"
+ icon: "/img/strawberry.svg"
+ button: Github
+ url: https://github.com/adamdjbrett/11ty-strawberry
 navbar: 
  - nav: "Home" 
    link: "/"
