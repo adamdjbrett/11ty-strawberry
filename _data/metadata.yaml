@@ -1,10 +1,11 @@
 title: "11ty Starwberry Starter"
 description: "A Starter project for eleventy 11ty Develop by Adam Dj Brett , for great speed and peformance website projects"
-favicon: "/img/berry.webp"
+favicon: "/img/strawberry.svg"
 image: "/img/straw.webp"
 language: "en"
 locale: "en_US"
-url: "http://localhost:8080"
+url: "https://strawberry.000000076.xyz"
+#url: "http://localhost:8080"
 metasocial: 
  - facebook: "https://www.facebook.com/user"
  - twitteruser: "@user"
@@ -22,7 +23,7 @@ blog:
  button: Exlpore All Post
  url: /blog/
 footer: 
-  copyrights: "Copyrights 2025"
+  copyrights: "CC-BY-SA 4.0"
   text1: "Developed by"
   text2: Adam DJ Brett
   text2_link: https://adamdjbrett.com
