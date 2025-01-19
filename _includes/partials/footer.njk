@@ -1,6 +1,6 @@
 <footer class="col-md-12 p-3 text-center bg-black text-white p-3 small">
 <div class="fot text-center"><a title="{{metadata.title}}" href="{{metadata.url}}" class="btn btn-sm bg-black rounded-circle">
-<img class="img-fluid" alt="{{metadata.title}}" src="https://wsrv.nl/?url={{ metadata.nav.icon }}&output=webp" width="60" height="60" loading="lazy"/>
+<img class="img-fluid" alt="{{metadata.title}}" src="{{ metadata.nav.icon }}" width="60" height="60" loading="lazy"/>
 </a></div>
 <p><small>{{metadata.footer.copyrights}} <em>Built with <a href="https://www.11ty.dev/" class="text-white">{{ eleventy.generator }}</a> {{metadata.footer.text1}} <a href="{{metadata.footer.text2_link}}" class="text-white">{{metadata.footer.text2}}</a> </em></p></small></footer>
 <script type="module" src="{% getBundleFileUrl "js" %}"></script>
