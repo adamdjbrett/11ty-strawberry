@@ -11,7 +11,7 @@ metasocial:
  - twitteruser: "@user"
  - twitter: "https://x.com/user"
 nav:
- title: "11ty Starwberry"
+ title: "11ty Strawberry"
  icon: "/img/strawberry.svg"
  button: Github
  url: https://github.com/adamdjbrett/11ty-strawberry
