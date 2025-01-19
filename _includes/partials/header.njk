@@ -1,8 +1,8 @@
-<a href="#skip" class="visually-hidden">Skip to main content</a>
-<header class="container-fluid desktop" style=" background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8) ),url('https://wsrv.nl/?url={{ image or metadata.image }}&output=webp');  height: 800px;  background-position: center;  background-repeat: no-repeat;  background-size: cover;">
+<a href="#skip" class="visually-hidden" aria-label="skip to blog">Skip to main content</a>
+<header class="container-fluid desktop" style=" background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8) ),url('{{ image or metadata.image }}');  height: 800px;  background-position: center;  background-repeat: no-repeat;  background-size: cover;">
 <div class="row p-3">
 <div class="col-4"> 
-<a href="{{metadata.url}}" class="text-white small"><img class="img-fluid rounded-circle" width="60" height="60" src="https://wsrv.nl/?url={{ metadata.nav.icon }}&output=webp" loading="eager"> <strong>{{metadata.nav.title}}</strong></a>
+<a href="{{metadata.url}}" class="text-white small"><img class="img-fluid rounded-circle" width="60" height="60" src="{{ metadata.nav.icon }}" loading="eager"> <strong>{{metadata.nav.title}}</strong></a>
 </div>
 <div class="col-6"><nav class="navbar">{% for n in metadata.navbar %}<a href="{{n.link}}" class="col-3 small text-white">{{n.nav}}</a>{% endfor %}</nav></div>
 <div class="col-2 text-end"><a href="{{metadata.nav.url}}" class="btn btn-sm btn-dark bg-black"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
