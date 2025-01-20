@@ -57,7 +57,7 @@ export default async function(eleventyConfig) {
 			subtitle: "This is a longer description about your blog.",
 			base: "https://example.com/",
 			author: {
-				name: "Adam Dj Brett"
+				name: "Adam DJ Brett"
 			}
 		}
 	});
