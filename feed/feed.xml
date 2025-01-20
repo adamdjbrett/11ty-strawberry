@@ -5,11 +5,19 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/11ty-strawberry/feed/feed.xml" rel="self" />
   <link href="https://example.com/11ty-strawberry/" />
-  <updated>2018-08-24T00:00:00Z</updated>
+  <updated>2025-01-20T20:40:06Z</updated>
   <id>https://example.com/11ty-strawberry/</id>
   <author>
     <name>Adam DJ Brett</name>
   </author>
+  <entry>
+    <title>Acknowledgements</title>
+    <link href="https://example.com/11ty-strawberry/blog/acknowledgements/" />
+    <updated>2025-01-20T20:40:06Z</updated>
+    <id>https://example.com/11ty-strawberry/blog/acknowledgements/</id>
+    <content type="html">&lt;p&gt;I want to thank and acknolwedge all the wonderful people who made this blog possible.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>This is my third post.</title>
     <link href="https://example.com/11ty-strawberry/blog/thirdpost/" />
