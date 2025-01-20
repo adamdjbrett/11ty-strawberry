@@ -18,7 +18,7 @@
 		"url": "git://github.com/adamdjbrett/11ty-stawberry.git"
 	},
 	"author": {
-		"name": "Adam Dj Brett",
+		"name": "Adam DJ Brett",
 		"email": "info@adamdjbrett.com",
 		"url": "https://adamdjbrett.com/"
 	},
@@ -38,6 +38,7 @@
 		"zod-validation-error": "^3.3.1"
 	},
 	"dependencies": {
-		"@zachleat/heading-anchors": "^1.0.1"
+		"@zachleat/heading-anchors": "^1.0.1",
+		"html-minifier-terser": "^7.2.0"
 	}
 }
