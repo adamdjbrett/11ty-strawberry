@@ -5,6 +5,7 @@ import pluginNavigation from "@11ty/eleventy-navigation";
 import yaml from "js-yaml";
 import pluginFilters from "./_config/filters.js";
 import { execSync } from 'child_process';
+import CleanCSS from "clean-css";
 export default async function(eleventyConfig) {
 	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
 		if(data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
@@ -29,6 +30,9 @@ export default async function(eleventyConfig) {
     eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 	eleventyConfig.addPlugin(pluginSyntaxHighlight, {
 		preAttributes: { tabindex: 0 }
+	});
+	eleventyConfig.addFilter("cssmin", function (code) {
+		return new CleanCSS({}).minify(code).styles;
 	});
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(HtmlBasePlugin);
