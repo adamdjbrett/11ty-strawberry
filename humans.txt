@@ -1,0 +1,25 @@
+
+/* WHO */
+
+  Adam DJ Brett
+  Website: adamdjbrett.com
+
+/* THANKS */
+  Username: Creativas.dev
+  Website: https://creativas.dev
+
+  Eleventy Creator: Zachleat
+  Twitter: @zachleat
+
+
+/* Credits */
+
+  Static Site Generator: Eleventy
+  Website: https://11ty.dev
+
+/* SITE */
+  Last update: Mon Jan 20 2025 15:34:35 GMT+0000 (Coordinated Universal Time)
+  Language: English
+  Generator: Eleventy
+  Doctype: HTML5
+  IDE: Terminal, VS Code
