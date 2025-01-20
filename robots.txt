@@ -4,4 +4,4 @@ User-agent: *
 Allow: /
 
 
-Sitemap: https://mesinkasir.github.io/11ty-strawberry/sitemap.xml
+Sitemap: https://strawberry.000000076.xyz/sitemap.xml
