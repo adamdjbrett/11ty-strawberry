@@ -26,5 +26,5 @@ Clean Full Cover Image for blogger, Built with 11ty for your next projects.
 + Tags Page
 + And more..
 
-Developed by [Adam DJ Brett](http://adamdjbrett.com)
+Develop by [Adam Dj Brett](http://adamdjbrett.com)
 

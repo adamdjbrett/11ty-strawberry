@@ -8,7 +8,7 @@ permalink: /contact/
 
 Need help ?? or want to talk aboiut your project, let's contact me.
 
-+ Adam DJ Brett
++ Adam Dj Brett
 + Website : [adamdjbrett.com](https://adamdjbrett.com)
 + Email : [info@adamdjbrett.com](mailto:info@adamdjbrett.com)
 
