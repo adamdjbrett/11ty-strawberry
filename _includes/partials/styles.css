@@ -9,3 +9,5 @@ font-family: "Faculty Glyphic", serif; word-wrap: break-word;
 html,body {
 font-family: "Roboto", serif;word-wrap: break-word;
 }
+main a {text-decoration:underline;}
+.non {text-decoration:none;}

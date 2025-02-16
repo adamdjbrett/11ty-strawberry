@@ -6,7 +6,7 @@ permalink: /contact/
 ---
 # Contact 11ty Strawberry
 
-Need help ?? or want to talk aboiut your project, let's contact me.
+Need help ?? or want to talk about your project, let's contact me.
 
 + Adam DJ Brett
 + Website : [adamdjbrett.com](https://adamdjbrett.com)
